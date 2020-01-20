@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Apple';
+  src: url('./fonts/Apple.ttf');
+}
+
+* {
+  font-family: BlinkMacSystemFont;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background-image: url('./img/bg-catalina.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
