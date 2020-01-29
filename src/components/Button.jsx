@@ -10,10 +10,10 @@ export default props => {
     
     return (
         <button 
-        onClick={e => props.click(props.val)}
+        onClick={e => props.click(props.label)}
         className={classes}>
-            {props.val}
+            {props.label}
         </button>
     )
-}
+} 
 
